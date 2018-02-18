@@ -116,4 +116,6 @@ cursor: not-allowed;}
 
 #mainimage {
   flex-grow: 1;
+  width: 2vw;
+  height: 3vw;
 }
