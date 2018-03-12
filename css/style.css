@@ -6,11 +6,13 @@ html {
   width: 100%;
 }
 
-
-
 body {
   background: #1b1b1b;
   background-size: stretch;
+}
+
+.picture {
+  width: 100%;
 }
 
 .title {
@@ -27,12 +29,7 @@ h2 {
 }
 h1 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 12vw;
-}
-img {
-max-height: 100%;
-max-width: 100%;
- border: 3px;
+  font-size: 7vw;
 }
 
 .title {
@@ -96,7 +93,7 @@ li:hover {
   min-width: 80%;
   background-color: rgba(139,09,57,0.5);
   margin: 5px;
-
+  flex-direction: row;
 }
 
 p {
@@ -119,13 +116,12 @@ cursor: not-allowed;}
   color: #cecece;
   flex-grow: 1;
   padding: 2%;
+  width: 50%;
 }
 
 #mainimage {
-  flex-grow: 1;
-  max-width: 50%;
+  width: 50%;
 }
-
 
  iframe {
         width: 100% !important;
