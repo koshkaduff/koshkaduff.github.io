@@ -19,10 +19,8 @@ function preload() {
 
 
 preload(
-'https://koshkaduff.github.io/img/home1.jpg',
-'https://koshkaduff.github.io/img/home2.jpg', 
-'https://koshkaduff.github.io/img/home3.jpg',
-'https://koshkaduff.github.io/img/teach1.jpg',
+'https://koshkaduff.github.io/img/home1.jpg',' https://koshkaduff.github.io/img/home2.jpg', 'https://koshkaduff.github.io/img/home3.jpg',
+ 'https://koshkaduff.github.io/img/teach1.jpg',
 'https://koshkaduff.github.io/img/teach2.jpg',
 'https://koshkaduff.github.io/img/teach3.jpg',
 'https://koshkaduff.github.io/img/pub1.jpg',
@@ -45,7 +43,7 @@ container.innerHTML = content;
 //switch the image using javascript
 function imgreplace(id,content) {
 var container = document.getElementById(id);
-container.innerHTML = "<img src=\""+content+ " \" >";
+container.innerHTML = "<img class=\"picture\" src=\""+content+ " \" >";
 }
 
     
