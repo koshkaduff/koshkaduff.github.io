@@ -9,7 +9,8 @@ html {
 .picture 
 {
   width: 100%;
-  
+  height: auto;
+  align-self: center;
 }
 
 
@@ -42,7 +43,6 @@ img {
 .title {
   display: flex;
   justify-content: center;
-  flex: 4, 4, 10em;
 }
 
 .subtitle {
@@ -61,17 +61,16 @@ img {
   justify-content: space-around;
   width: 90%;
   background-color: rgba(135,09,57,0.35);
-  
 }
 
-ul {
+.list {
   display: flex;
   justify-content: center;
   margin: 0px;
  width: 90%;
 }
 
-li {
+.listitem {
   display: flex;
   margin: 0% 0% 0% 2%;
   font-family: "Open Sans", sans-serif;
@@ -80,7 +79,7 @@ li {
   font-size: 2.5vw;
 }
 
-li:hover {
+.listitem:hover {
   font-weight: bold;
   opacity: 1;
   cursor: not-allowed;
@@ -132,15 +131,18 @@ cursor: not-allowed;}
 
 
  iframe {
+   
          height: 100% !important;
         width: 100% !important;
-   min-height: 300px;
+   min-height: 250px;
    min-width:200px;
    frameborder: 0;
 }
 
 @media screen and (max-width: 640px) {
-  .main{flex-direction: column}
-  #maintext {width: 90%}
-  #mainimage {width: 90%;}
+  .main{
+    display: flex;
+    flex-direction: column;}
+  #maintext {width: 90%;}
+  #mainimage {width: 90%;height: auto;}
 }
