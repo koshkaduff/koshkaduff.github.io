@@ -42,7 +42,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-self: flex-start;
-  margin: -5px;
+  margin: -0px;
   flex: 1, 1, 10em;
 }
 
@@ -90,7 +90,8 @@ li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 80%;
+  width: 80%;
+  height: 60%;
   background-color: rgba(139,09,57,0.5);
   margin: 5px;
   flex-direction: row;
