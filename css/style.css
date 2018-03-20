@@ -34,7 +34,7 @@ h2 {
 }
 h1 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 7vw;
+  font-size: 5vw;
 }
 img {
  border: 3px;
@@ -145,4 +145,5 @@ cursor: not-allowed;}
     flex-direction: column;}
   #maintext {width: 90%;}
   #mainimage {width: 90%;height: auto;}
+  #listitem{font-size: 2.5vw;}
 }
