@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  
+  <title
   
 </head>
   
@@ -81,7 +81,7 @@ var step=0;
 function changeImage() { 
 
 imgreplace('mainimage',src[step]);
-if(step<2) {step++;} else {step=0;} } setInterval(changeImage,5000);
+if(step<2) {step++;} else {step=0;} } setInterval(changeImage,10000);
     
     
 //For testing purposes only!
@@ -97,7 +97,7 @@ var pub = "<br><br>\"The Criminal is Political: Policing politics in Real Existi
 
 var mus = "<br><br><center><iframe src=\"https://open.spotify.com/embed/album/3TdzNYLh3li2BtXh0daURJ\" frameborder=\"0\" allowtransparency=\"true\"></iframe></center><br><br>";    
 
-var tra = "<br><br>As part of my PhD project, I spent several months at the Horkheimer archive in Frankfurt am Main working on a translation of Horkheimer\’s \‘Theorie des Verbrechers\’ \[Theory of the Criminal\] \(1939-42\). Please get in touch if you\'d like more details about this. <br><br> I also enjoy translating poetry. Here are some poems I translated into German: <br><br> STECKNADEL. Translations of PIN, a sequence of poems by Frances Kruk (Munich: Materialien, 2017). \<a href\=\" https://material-s.blogspot.co.uk/p/materialien-m.html.\">\[Link\]\<\/a\><br><br>"
+var tra = "<br><br>As part of my PhD project, I spent several months at the Horkheimer archive in Frankfurt am Main working on a translation of Horkheimer\’s \‘Theorie des Verbrechers\’ \[Theory of the Criminal\] \(1939-42\). Please get in touch if you\'d like more details about this. <br><br> I also enjoy translating poetry. Here are some poems I translated into German: <br><br> STECKNADEL. Translations of PIN, a sequence of poems by Frances Kruk (Munich: Materialien, 2017). <a href=\"https://material-s.blogspot.co.uk/p/materialien-m.html\">[Link]</a><br><br>"
     
 var teaimg="https://koshkaduff.github.io/img/mun.jpg";
 
@@ -108,6 +108,7 @@ var pubimg="https://koshkaduff.github.io/img/cip.jpg";
 var musimg="https://koshkaduff.github.io/img/crime.jpg";
 
 var traimg="https://koshkaduff.github.io/img/book.jpg";
+  
 </script>
 <body>
   
@@ -121,19 +122,19 @@ var traimg="https://koshkaduff.github.io/img/book.jpg";
   <br>
   <div class="bar-meta">
     <div class="bar">
-      <ul>
-        <li><a href="javascript:linkreplace('maintext',home);imgreplace('mainimage',homimgs[0]);index('hom');">
-HOME</a></li>
-        <li><a href="javascript:linkreplace('maintext',tea);imgreplace('mainimage',teaimgs[0]);imgarray(teaimgs);">
-TEACHING</a></li>
-        <li><a href="javascript:linkreplace('maintext',pub);imgreplace('mainimage',pubimgs[0]);imgarray(pubimgs)">
-PUBLICATIONS</a></li>
-        <li><a href="javascript:linkreplace('maintext',tra);imgreplace('mainimage',traimg);imgarray(traimgs);">
-TRANSLATIONS</a></li>
-        <li><a href="javascript:linkreplace('maintext',mus);imgreplace('mainimage',musimgs[0]);imgarray(musimgs)";>
-MUSIC</a></li>
+      <div class="list">
+        <div class="listitem"><a href="javascript:linkreplace('maintext',home);imgreplace('mainimage',homimgs[0]);index('hom');">
+HOME</a></div>
+        <div class="listitem"><a href="javascript:linkreplace('maintext',tea);imgreplace('mainimage',teaimgs[0]);imgarray(teaimgs);">
+TEACHING</a></div>
+        <div class="listitem"><a href="javascript:linkreplace('maintext',pub);imgreplace('mainimage',pubimgs[0]);imgarray(pubimgs)">
+PUBLICATIONS</a></div>
+        <div class="listitem"><a href="javascript:linkreplace('maintext',tra);imgreplace('mainimage',traimg);imgarray(traimgs);">
+TRANSLATIONS</a></div>
+        <div class="listitem"><a href="javascript:linkreplace('maintext',mus);imgreplace('mainimage',musimgs[0]);imgarray(musimgs)";>
+          MUSIC</a></div></div>
        
-      </ul>
+      </div>
     </div>
   </div>
   <div class="main-meta">
@@ -141,7 +142,10 @@ MUSIC</a></li>
       <div id="maintext"></div><div id="mainimage"></div>
     </div>
   </div>
-  <div class="bar-meta"><div class="bar"><ul><li></li></dir></div>
+  <div class="bar-meta"><div class="bar"><div class="listitem">
+    <a id="emailLnk" href="mailto:koshkaduff@cantab.net">Email me
+</a>
+    </div></div>
 </body>
 
 </html>
