@@ -53,7 +53,6 @@ container.innerHTML = "<img class=\"picture\" src=\""+content+ " \" >";
 
 function imgarray(page) {  
 src = page;
-console.log('hi');
 }
 
 var homimgs = [
@@ -91,7 +90,7 @@ if(step<2) {step++;} else {step=0;} } setInterval(changeImage,10000);
     alert("Hello!");
 }
     
-var home = "<br><br>I have just submitted my PhD thesis in the Philosophy department at Sussex. My main research interests are in social and political philosophy, feminism, critical theory, German philosophy, and history of political thought. <br><br>I did my undergraduate degree at Cambridge and a research masters at Birkbeck, both in Philosophy. In 2009-10 I was a Frank Knox Fellow at Harvard, where I studied German, Gender Studies, and Intellectual History as well as Philosophy. More recently, I was a DAAD Visiting Fellow at the Goethe-Universität, Frankfurt am Main (2017), translating texts in the Max Horkheimer archive. <br><br>I also have a Masters in Piano Performance from the Royal College of Music, which included an ERASMUS semester at the Universität der Künste, Berlin.<br><br>";
+var home = "<br><br>I have just submitted my PhD thesis in the Philosophy department at Sussex. My main research interests are in social and political philosophy, feminism, critical theory, philosophy of \'race\', philosophy of law, German philosophy, and history of political thought. <br><br>I did my undergraduate degree at Cambridge and a research masters at Birkbeck, both in Philosophy. In 2009-10 I was a Frank Knox Fellow at Harvard, where I studied German, Gender Studies, and Intellectual History as well as Philosophy. More recently, I was a DAAD Visiting Fellow at the Goethe-Universität, Frankfurt am Main (2017), translating texts in the Max Horkheimer archive. <br><br>I also have a Masters in Piano Performance from the Royal College of Music, which included an ERASMUS semester at the Universität der Künste, Berlin.<br><br>";
 
 var tea = "<br><br>I currently teach in the Philosophy department at King's College London, and on the Masters in Public Policy at Oxford's Blavatnik School of Government. I previously taught in the Philosophy department at Birkbeck. <br><br>Courses I am teaching on this year at KCL include: Gender & Philosophy, Ethics of Migration, Metaphysics I, Introduction to Philosophy, and Introduction to Political Philosophy. <br><br> At Birkbeck I taught Marx & Rousseau, Introduction to Epistemology, and Introduction to Ethics and Political Philosophy. <br><br>I have also done a lot of freelance tutoring for A-level and university students. <br><br>";
 
@@ -100,20 +99,9 @@ var pub = "<br><br>\"The Criminal is Political: Policing politics in Real Existi
 var mus = "<br><br><center><iframe src=\"https://open.spotify.com/embed/album/3TdzNYLh3li2BtXh0daURJ\" frameborder=\"0\" allowtransparency=\"true\"></iframe></center><br><br>";    
 
 var tra = "<br><br>As part of my PhD project, I spent several months at the Horkheimer archive in Frankfurt am Main working on a translation of Horkheimer\’s \‘Theorie des Verbrechers\’ \[Theory of the Criminal\] \(1939-42\). Please get in touch if you\'d like more details about this. <br><br> I also enjoy translating poetry. Here are some poems I translated into German: <br><br> STECKNADEL. Translations of PIN, a sequence of poems by Frances Kruk (Munich: Materialien, 2017). <a href=\"https://material-s.blogspot.co.uk/p/materialien-m.html\">[Link]</a><br><br>"
-    
-var teaimg="https://koshkaduff.github.io/img/mun.jpg";
-
-var homimg="https://koshkaduff.github.io/img/fam.jpg";
-    
-var pubimg="https://koshkaduff.github.io/img/cip.jpg";
-    
-var musimg="https://koshkaduff.github.io/img/crime.jpg";
-
-var traimg="https://koshkaduff.github.io/img/book.jpg";
-  
 </script>
 
-<body onload="javascript:linkreplace('maintext',hom);imgreplace('mainimage',homimgs[0]);imgarray(homimgs);">
+<body onload="javascript:linkreplace('maintext',home);imgreplace('mainimage',homimgs[0]);imgarray(homimgs);">
   
   
   <div class="title">
